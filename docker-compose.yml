@@ -6,3 +6,5 @@ services:
     environment:
       SERVER_NAME: kibana
       ELASTICSEARCH_URL: http://elasticsearch:9200
+    ports:
+    - 5601:5601
